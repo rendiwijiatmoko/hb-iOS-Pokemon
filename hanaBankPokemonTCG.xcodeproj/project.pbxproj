@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F74EB5422AB17E9100CFDB5B /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74EB5412AB17E9100CFDB5B /* CardModel.swift */; };
+		F74EB5472AB1812E00CFDB5B /* CardVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74EB5462AB1812E00CFDB5B /* CardVm.swift */; };
+		F74EB5492AB181DF00CFDB5B /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74EB5482AB181DF00CFDB5B /* CardListView.swift */; };
+		F74EB54B2AB19B9E00CFDB5B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74EB54A2AB19B9E00CFDB5B /* Extensions.swift */; };
+		F74EB54D2AB19FF000CFDB5B /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74EB54C2AB19FF000CFDB5B /* ResponseModel.swift */; };
+		F74EB54F2AB1AAAD00CFDB5B /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74EB54E2AB1AAAD00CFDB5B /* CardCollectionViewCell.swift */; };
+		F74EB5512AB1ABAA00CFDB5B /* CardCollectionViewCellVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74EB5502AB1ABAA00CFDB5B /* CardCollectionViewCellVm.swift */; };
+		F74EB5542AB1CA2C00CFDB5B /* HBDetailPokemonVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74EB5532AB1CA2C00CFDB5B /* HBDetailPokemonVc.swift */; };
+		F74EB5562AB1CAF700CFDB5B /* DetailPokemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74EB5552AB1CAF700CFDB5B /* DetailPokemonView.swift */; };
+		F74EB5582AB1CB1F00CFDB5B /* DetailPokemonVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74EB5572AB1CB1F00CFDB5B /* DetailPokemonVm.swift */; };
+		F74EB55A2AB1D5D200CFDB5B /* FooterLoadingCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74EB5592AB1D5D200CFDB5B /* FooterLoadingCollectionReusableView.swift */; };
+		F74EB55D2AB1F5A800CFDB5B /* HBImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74EB55C2AB1F5A800CFDB5B /* HBImageLoader.swift */; };
 		F792AFC12AB16B85000F7A2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792AFC02AB16B85000F7A2C /* AppDelegate.swift */; };
 		F792AFC32AB16B85000F7A2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792AFC22AB16B85000F7A2C /* SceneDelegate.swift */; };
-		F792AFC52AB16B85000F7A2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792AFC42AB16B85000F7A2C /* ViewController.swift */; };
-		F792AFC82AB16B85000F7A2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F792AFC62AB16B85000F7A2C /* Main.storyboard */; };
 		F792AFCA2AB16B86000F7A2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F792AFC92AB16B86000F7A2C /* Assets.xcassets */; };
 		F792AFCD2AB16B86000F7A2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F792AFCB2AB16B86000F7A2C /* LaunchScreen.storyboard */; };
+		F792AFDA2AB16CA7000F7A2C /* HBTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792AFD92AB16CA7000F7A2C /* HBTabBarVC.swift */; };
+		F792AFDC2AB16E47000F7A2C /* HBHomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792AFDB2AB16E47000F7A2C /* HBHomeVc.swift */; };
+		F792AFDE2AB16E54000F7A2C /* HBSearchVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792AFDD2AB16E54000F7A2C /* HBSearchVc.swift */; };
+		F792AFE02AB17208000F7A2C /* HBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792AFDF2AB17208000F7A2C /* HBService.swift */; };
+		F792AFE22AB17233000F7A2C /* HBRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792AFE12AB17233000F7A2C /* HBRequest.swift */; };
+		F792AFE42AB17272000F7A2C /* HBEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792AFE32AB17272000F7A2C /* HBEndpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F74EB5412AB17E9100CFDB5B /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		F74EB5462AB1812E00CFDB5B /* CardVm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardVm.swift; sourceTree = "<group>"; };
+		F74EB5482AB181DF00CFDB5B /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		F74EB54A2AB19B9E00CFDB5B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F74EB54C2AB19FF000CFDB5B /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		F74EB54E2AB1AAAD00CFDB5B /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		F74EB5502AB1ABAA00CFDB5B /* CardCollectionViewCellVm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCellVm.swift; sourceTree = "<group>"; };
+		F74EB5532AB1CA2C00CFDB5B /* HBDetailPokemonVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBDetailPokemonVc.swift; sourceTree = "<group>"; };
+		F74EB5552AB1CAF700CFDB5B /* DetailPokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPokemonView.swift; sourceTree = "<group>"; };
+		F74EB5572AB1CB1F00CFDB5B /* DetailPokemonVm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPokemonVm.swift; sourceTree = "<group>"; };
+		F74EB5592AB1D5D200CFDB5B /* FooterLoadingCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterLoadingCollectionReusableView.swift; sourceTree = "<group>"; };
+		F74EB55C2AB1F5A800CFDB5B /* HBImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBImageLoader.swift; sourceTree = "<group>"; };
 		F792AFBD2AB16B85000F7A2C /* hanaBankPokemonTCG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hanaBankPokemonTCG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F792AFC02AB16B85000F7A2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F792AFC22AB16B85000F7A2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F792AFC42AB16B85000F7A2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F792AFC72AB16B85000F7A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F792AFC92AB16B86000F7A2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F792AFCC2AB16B86000F7A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F792AFCE2AB16B86000F7A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F792AFD92AB16CA7000F7A2C /* HBTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBTabBarVC.swift; sourceTree = "<group>"; };
+		F792AFDB2AB16E47000F7A2C /* HBHomeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBHomeVc.swift; sourceTree = "<group>"; };
+		F792AFDD2AB16E54000F7A2C /* HBSearchVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBSearchVc.swift; sourceTree = "<group>"; };
+		F792AFDF2AB17208000F7A2C /* HBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBService.swift; sourceTree = "<group>"; };
+		F792AFE12AB17233000F7A2C /* HBRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBRequest.swift; sourceTree = "<group>"; };
+		F792AFE32AB17272000F7A2C /* HBEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBEndpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +69,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F74EB5432AB1810F00CFDB5B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F74EB5462AB1812E00CFDB5B /* CardVm.swift */,
+				F74EB5502AB1ABAA00CFDB5B /* CardCollectionViewCellVm.swift */,
+				F74EB5572AB1CB1F00CFDB5B /* DetailPokemonVm.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F74EB5522AB1CA0A00CFDB5B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				F74EB5532AB1CA2C00CFDB5B /* HBDetailPokemonVc.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F74EB55B2AB1F59900CFDB5B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F74EB55C2AB1F5A800CFDB5B /* HBImageLoader.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		F792AFB42AB16B85000F7A2C = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +114,69 @@
 		F792AFBF2AB16B85000F7A2C /* hanaBankPokemonTCG */ = {
 			isa = PBXGroup;
 			children = (
-				F792AFC02AB16B85000F7A2C /* AppDelegate.swift */,
-				F792AFC22AB16B85000F7A2C /* SceneDelegate.swift */,
-				F792AFC42AB16B85000F7A2C /* ViewController.swift */,
-				F792AFC62AB16B85000F7A2C /* Main.storyboard */,
-				F792AFC92AB16B86000F7A2C /* Assets.xcassets */,
-				F792AFCB2AB16B86000F7A2C /* LaunchScreen.storyboard */,
+				F74EB55B2AB1F59900CFDB5B /* Managers */,
+				F792AFD52AB16BF3000F7A2C /* Models */,
+				F792AFD82AB16C35000F7A2C /* Views */,
+				F74EB5432AB1810F00CFDB5B /* ViewModels */,
+				F792AFD72AB16C24000F7A2C /* APIClient */,
+				F792AFD62AB16BFA000F7A2C /* Resources */,
+				F792AFD42AB16BEA000F7A2C /* Controllers */,
 				F792AFCE2AB16B86000F7A2C /* Info.plist */,
 			);
 			path = hanaBankPokemonTCG;
+			sourceTree = "<group>";
+		};
+		F792AFD42AB16BEA000F7A2C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F74EB5522AB1CA0A00CFDB5B /* Others */,
+				F792AFD92AB16CA7000F7A2C /* HBTabBarVC.swift */,
+				F792AFDB2AB16E47000F7A2C /* HBHomeVc.swift */,
+				F792AFDD2AB16E54000F7A2C /* HBSearchVc.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F792AFD52AB16BF3000F7A2C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F74EB5412AB17E9100CFDB5B /* CardModel.swift */,
+				F74EB54C2AB19FF000CFDB5B /* ResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F792AFD62AB16BFA000F7A2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F792AFC02AB16B85000F7A2C /* AppDelegate.swift */,
+				F792AFC22AB16B85000F7A2C /* SceneDelegate.swift */,
+				F792AFC92AB16B86000F7A2C /* Assets.xcassets */,
+				F792AFCB2AB16B86000F7A2C /* LaunchScreen.storyboard */,
+				F74EB54A2AB19B9E00CFDB5B /* Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F792AFD72AB16C24000F7A2C /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				F792AFDF2AB17208000F7A2C /* HBService.swift */,
+				F792AFE12AB17233000F7A2C /* HBRequest.swift */,
+				F792AFE32AB17272000F7A2C /* HBEndpoint.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		F792AFD82AB16C35000F7A2C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F74EB5482AB181DF00CFDB5B /* CardListView.swift */,
+				F74EB54E2AB1AAAD00CFDB5B /* CardCollectionViewCell.swift */,
+				F74EB5552AB1CAF700CFDB5B /* DetailPokemonView.swift */,
+				F74EB5592AB1D5D200CFDB5B /* FooterLoadingCollectionReusableView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +239,6 @@
 			files = (
 				F792AFCD2AB16B86000F7A2C /* LaunchScreen.storyboard in Resources */,
 				F792AFCA2AB16B86000F7A2C /* Assets.xcassets in Resources */,
-				F792AFC82AB16B85000F7A2C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +249,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F792AFC52AB16B85000F7A2C /* ViewController.swift in Sources */,
+				F74EB5492AB181DF00CFDB5B /* CardListView.swift in Sources */,
+				F74EB5542AB1CA2C00CFDB5B /* HBDetailPokemonVc.swift in Sources */,
+				F74EB55D2AB1F5A800CFDB5B /* HBImageLoader.swift in Sources */,
 				F792AFC12AB16B85000F7A2C /* AppDelegate.swift in Sources */,
+				F792AFDC2AB16E47000F7A2C /* HBHomeVc.swift in Sources */,
+				F792AFDA2AB16CA7000F7A2C /* HBTabBarVC.swift in Sources */,
+				F74EB55A2AB1D5D200CFDB5B /* FooterLoadingCollectionReusableView.swift in Sources */,
+				F74EB54F2AB1AAAD00CFDB5B /* CardCollectionViewCell.swift in Sources */,
+				F792AFDE2AB16E54000F7A2C /* HBSearchVc.swift in Sources */,
+				F74EB5472AB1812E00CFDB5B /* CardVm.swift in Sources */,
+				F792AFE22AB17233000F7A2C /* HBRequest.swift in Sources */,
+				F74EB54B2AB19B9E00CFDB5B /* Extensions.swift in Sources */,
+				F74EB5422AB17E9100CFDB5B /* CardModel.swift in Sources */,
+				F74EB54D2AB19FF000CFDB5B /* ResponseModel.swift in Sources */,
+				F74EB5512AB1ABAA00CFDB5B /* CardCollectionViewCellVm.swift in Sources */,
+				F74EB5582AB1CB1F00CFDB5B /* DetailPokemonVm.swift in Sources */,
 				F792AFC32AB16B85000F7A2C /* SceneDelegate.swift in Sources */,
+				F74EB5562AB1CAF700CFDB5B /* DetailPokemonView.swift in Sources */,
+				F792AFE42AB17272000F7A2C /* HBEndpoint.swift in Sources */,
+				F792AFE02AB17208000F7A2C /* HBService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F792AFC62AB16B85000F7A2C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F792AFC72AB16B85000F7A2C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F792AFCB2AB16B86000F7A2C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +411,6 @@
 				INFOPLIST_FILE = hanaBankPokemonTCG/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +437,6 @@
 				INFOPLIST_FILE = hanaBankPokemonTCG/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
