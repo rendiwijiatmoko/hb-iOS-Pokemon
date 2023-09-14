@@ -40,10 +40,11 @@ final class CardCollectionViewCell: UICollectionViewCell {
     // MARK: - Setup UI
     private func setupUI() {
         NSLayoutConstraint.activate([
-            nameLabel.heightAnchor.constraint(equalToConstant: 30),
-            nameLabel.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: 5),
-            nameLabel.rightAnchor.constraint(equalTo: contentView.rightAnchor, constant: -5),
-            nameLabel.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),
+//            nameLabel.heightAnchor.constraint(equalToConstant: 30),
+            nameLabel.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
+//            nameLabel.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: 5),
+//            nameLabel.rightAnchor.constraint(equalTo: contentView.rightAnchor, constant: -5),
+            nameLabel.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -5),
             
             imageView.topAnchor.constraint(equalTo: contentView.topAnchor),
             imageView.leftAnchor.constraint(equalTo: contentView.leftAnchor),

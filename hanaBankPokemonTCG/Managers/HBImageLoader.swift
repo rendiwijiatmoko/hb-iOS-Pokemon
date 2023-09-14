@@ -22,7 +22,7 @@ final class HBImageLoader {
     public func downloadImage(_ url: URL, completion: @escaping(Result<Data, Error>) -> Void) {
         let key = url.absoluteString as NSString
         if let data = imageDataCache.object(forKey: key) {
-            completion(.success(data as Data)) // NSData == Data | NSString == String
+            completion(.success(data as Data))
         }
         let request = URLRequest(url: url)
         let task = URLSession.shared.dataTask(with: request) {[weak self] data, _, error in

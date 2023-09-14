@@ -20,7 +20,7 @@ class HBTabBarVC: UITabBarController {
            let searchVc = HBSearchVc()
            
            homeVc.navigationItem.largeTitleDisplayMode = .automatic
-           searchVc.navigationItem.largeTitleDisplayMode = .automatic
+           searchVc.navigationItem.largeTitleDisplayMode = .never
            
            let nav1 = UINavigationController(rootViewController: homeVc)
            let nav2 = UINavigationController(rootViewController: searchVc)

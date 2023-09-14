@@ -53,7 +53,7 @@ final class CardVm: NSObject {
                     self?.delegate?.didLoadInitialCards()
                 }
             case .failure(let error):
-                print("Error: \(error)") // Check for network request errors
+                print("Error: \(error)")
             }
         }
     }
@@ -84,7 +84,6 @@ final class CardVm: NSObject {
                     return IndexPath(row: $0, section: 0)
                 }
                 
-                // Only add data to the cards array once
                 strongSelf.cards.append(contentsOf: moreData)
                 
                 DispatchQueue.main.async {
@@ -93,7 +92,7 @@ final class CardVm: NSObject {
                 }
             case .failure(let error):
                 strongSelf.isLoadingMoreCardList = false
-                print("Error: \(error)") // Check for network request errors
+                print("Error: \(error)")
             }
         }
     }
